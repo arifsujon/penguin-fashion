@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header, .banner{
+    background-color: whitesmoke;
+}
+header img{
+    width: 250px;
+}
+
+.banner{
+    padding-bottom: 100px;
+}
+.banner-left{
+    margin-top: 48px;
+}
+.banner-content .section-title{
+    color: #fabe4c;
+    font-size: 3.1rem;
+}
+.banner-content .section-title span{
+    color: #363958;
+}
+.cart-button a {
+    background-color:#a4bc46;
+    padding: 16px 32px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.cart-button a:hover{
+    background-color: seagreen;
+}
+.banner img{
+    width: 440px;
+    max-width: 100%;
+}
+
+.woman-corner h1{
+    color: indigo;
+}
+.price h2{
+    color: #fabe4c;
+}
+.woman-corner img, .man-corner img{
+    width: 220px;
+    height: 250px;
+}
+.card-image{
+    border-radius: 5%;
+    background-color:rgba(220, 220, 220, .4);
+}
+.card-item{
+    border-radius: 3%;
+    padding-bottom: 15px;
+}
+.card-footer-item{
+    background-color: #fff;
+}
+.icon img{
+    width: 70px;
+}
+
+.man-corner{
+    margin-top: 100px;
+}
+.man-corner h1{
+    color: #80880b;
+}
+
+.contact-info p{
+    font-size: 14px;
+}
+.contact-details{
+    display: flex;
+    border-radius: 10px;
+}
+
+.offers-news{
+    background-color:rgba(0,0,0,.125);
+    height: 300px;
+}
+.offers-news .content{
+    padding: 78px;
+
+}
+input[type="email"] {
+    width: 60%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+    outline: none;
+}
+.subscribe-btn {
+    padding-top: 115px;
+}
+a.subscribe-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #a4bc46;
+    padding: 15px 30px;
+    position: relative;
+    right: 25px;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+a.subscribe-btn:hover{
+    background-color:  seagreen;
+}
+input#sub {
+    width: 17px;
+    float: left;
+    margin-bottom: 0px;
+    height: 21px;
+    margin-right: 7px;
+    margin-top: 5px;
+}
+label {
+    margin-top: 5px;
+    display: inline-block;
+}
+@media (max-width:575px){
+    .banner-img {
+        margin-top: 100px;
+    }
+    .contact-details{
+        display: inline-block;
+        
+    }
+    .contact-details .icon{
+        text-align: center;
+    }
+    .contact-info{
+        text-align: center;
+    }
+    .icon img{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767px){
+    .contact-img{
+        margin-bottom: 20px;
+    }
+    .woman-corner h1, .man-corner h1{
+        text-align: center;
+    }
+    .contact-img{
+        margin-bottom: 50px;
+    }
+    .offers-news{
+        padding-top: 0;
+    }
+    .subscribe-btn{
+        padding-top: 0;
+        justify-content: center;
+    }
+}
+@media (max-width:1199px){
+    .offers-news .content {
+        padding-right: 0;
+        padding-left: 70px;
+    }
+}
+@media (max-width:991px){
+    .banner-img{
+        margin-top: 70px;
+    }
+    .menu a{
+        margin-left: 0 !important;
+    }
+    .offers-news .content {
+        padding-left: 15px;
+
+    }
+    .contact-img{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px){
+    .banner-left{
+        margin-top: 0;
+    }
+    .banner-img{
+        margin-top: 70px;
+    }
+    .contact-img{
+        margin-bottom: 20px;
+    }
+    .woman-corner h1, .man-corner h1{
+        text-align: center;
+    }
+    
+    .offers-news{
+        padding-top: 0;
+    }
+    .offers-news .content {
+        padding: 40px;
+    }
+    .subscribe-btn{
+        padding-top: 0;
+        justify-content: center;
+    }
+}
+@media(max-width:575px){
+    .banner {
+        padding-left: 15px;
+    }
+    
+    .contact-big-images{
+        padding: 0 30px;
+    }
+    .contact-details{
+        margin: 0 42px;
+    }
+}
+
