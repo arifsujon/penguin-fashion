@@ -181,6 +181,9 @@ label {
     .contact-img{
         margin-bottom: 50px;
     }
+    .contact-details{
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 767px){
@@ -195,6 +198,10 @@ label {
     }
     .woman-corner h1, .man-corner h1{
         text-align: center;
+    }
+
+    .contact-details{
+        margin-top: 50px;
     }
     
     .offers-news{
@@ -218,6 +225,9 @@ label {
     }
     .contact-details{
         margin: 0 42px;
+    }
+    .contact-details{
+        margin-top: 50px;
     }
 }
 
